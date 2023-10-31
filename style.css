@@ -1,1 +1,164 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card {
+  display: flex;
+  height: 400px;
+  width: 600px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container .card .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.container .card .left .button {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  background: linear-gradient(to bottom, hsl(256, 72%, 46%), hsl(252, 100%, 67%));
+  padding: 30px 40px;
+}
+.container .card .left .button .score {
+  color: hsl(221, 100%, 96%);
+  font-size: 3rem;
+  font-weight: 800;
+}
+.container .card .left .button .outOf {
+  color: hsl(221, 100%, 96%);
+}
+.container .card .left .resultTitle {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.container .card .left p {
+  text-align: center;
+  padding: 0px 50px;
+  color: hsl(0, 0%, 100%);
+}
+.container .card .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 600px;
+}
+.container .card .right .scoreSummary {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .card .right .scoreSummary .scoreRed {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  font-weight: 800;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .card .right .scoreSummary .scoreYellow {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  font-weight: 800;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .card .right .scoreSummary .scoreGreen {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+  font-weight: 800;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .card .right .scoreSummary .scoreBlue {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  font-weight: 800;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container .card .right .scoreSummary .redActual,
+.container .card .right .scoreSummary .greenActual,
+.container .card .right .scoreSummary .yellowActual,
+.container .card .right .scoreSummary .blueActual {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+.container .card .right .scoreSummary .outOfScore {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+.container .card .right .submitBtn {
+  padding: 10px 20px;
+  width: 80%;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  margin-bottom: 30px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
